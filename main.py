@@ -5,7 +5,7 @@ from pyrogram import Client, filters, idle
 API_ID = int(environ.get("API_ID"))
 API_HASH = environ.get("API_HASH")
 BOT_TOKEN = environ.get("BOT_TOKEN")
-SESSION = environ.get('SESSION', "BQCCe-vrxvCiBFOha-4DORMk7SmBtXMoQtgNrgEFBkaBUTyBy2ww2klIFJ0TZKlf1_JsGKUFEZ8f_K09bnr2iEinrbmpU9QDocBoliOiuONwjKhxA6D65Ij5mKpvrg3X0FP7dGD57weycLt5xqfCIjqy3Ns86dSFLZvfZGZceNrKhHdnrcM5s2QBY73mwCkWYW0K787UaEUoD7OoY5GXGmRVlT_zYVxE7Sbo144egOKpkW1rUHLh3RgAhVvoP2lGzY6VEvdGfXfV3-CQ6ybTJMCV_62Ief28LctRMktvpZdWDN5vRSgPPWFNhDHBbCm7voF2yokTVfR2V3LulKEXfsV6AAAAAWGbn2gA")
+SESSION = environ.get('SESSION', "BQCNI8vflBhxxHaCZkgZ8BG-iTeVYIywxt3bpNrRkMi9j6JLM0meCsFIsT_rSggSjkGzHcoBTX1lRs3xXAucoChwrqgxV2rihw9L3ldlFz5KhMQw_CbcIwamQ345HilW7PgBhGUDvHewhujZp6Wgp4MWfdt3ADSsibLeRkXs03GA5iLazQ4hTU7_qovczXvCtl9XUaPsTfs1tt3CGDrJxSF__cDUFcqjrySqZ9ixtWgxCeK3p-vKm1hPxfpK9eYCH8PumuCIuBl7CRDJSwcv6r1-2LqAtcdgzM5r-AR33cA7K1iRKwHK_itTb_Qd7EZ5qUuRkNz4_Ira0gFjCbwBRuUEdKn3xAA"
 TIME = int(environ.get("TIME"))
 GROUPS = []
 for grp in environ.get("GROUPS").split():

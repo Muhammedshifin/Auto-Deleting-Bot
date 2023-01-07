@@ -11,27 +11,5 @@
 6. `ADMINS` : ID of Admins, messages from admins will not delete (seperate by spaces)
 7. `TIME` : Time in seconds
 
-### Make sure:
-- Bot is admin in Groups with delete permission
-- Account used to create SESSION is a member in Groups
 
-## Deploy in Heroku
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-## Deploy in your VPS
-
-```sh
-git clone https://github.com/TG-V4MP1R3/Auto-Delete-Bot
-cd Auto-Delete-Bot
-pip3 install -r requirements.txt
-# <Create Variables appropriately>
-python3 bot.py
-```
-
-### Credits
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
-
-
-### Developer
-- [Vampire](https://t.me/KP51107)
 
